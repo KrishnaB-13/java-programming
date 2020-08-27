@@ -1,0 +1,25 @@
+class switching{
+	public static void main(String[]args)
+	{
+		int i=7;
+		switch(i)
+		{
+			case 0:
+			System.out.print("zero");
+			break;
+			case 1:
+			System.out.print("one");
+			break;
+			case 2:
+			System.out.print("two");
+			break;
+			case 3:
+			System.out.print("three");
+			break;
+		
+		default:
+			
+		System.out.print("enter a no");
+		}
+	}
+}
