@@ -1,0 +1,29 @@
+public class Pattern {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) 
+    {
+        // TODO code application logic here
+        int n=121; int r;
+        int s=0;
+        int t=n;
+        while(n>0)
+        {
+            r=n%10;
+            n=n/10;
+            s=s*10+r;
+        }
+        if(t==n)
+        {
+            System.out.print("palindrome");
+        }
+        else
+        {
+            System.out.print("not ");
+        
+        }
+    
+    }
+}
