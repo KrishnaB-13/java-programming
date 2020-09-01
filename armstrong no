@@ -1,0 +1,30 @@
+package javaapplication2;
+
+/**
+ *
+ * @author krish
+ */
+public class JavaApplication2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        int n=153;
+        int temp=n;
+        int r,sum=0;
+        while(n>0)
+        {
+            r=n%10;
+            n=n/10;
+            sum=sum+r*r*r;
+        }
+        if(temp==sum)
+            System.out.print("Amstrong");
+        else
+            System.out.print("not");
+        
+         
+    }
+}
